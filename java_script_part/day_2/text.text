@@ -38,3 +38,25 @@ typeof 10 // "number"
 
 👉 এটা JavaScript-এর historical bug (early design mistake)।
 JS শুরু থেকেই null কে object হিসেবে treat করেছিল, তাই এখনো typeof null → "object" দেখায়।
+
+11. Primitive vs Reference Data Types
+
+👉 Primitive
+
+value directly store হয়
+copy করলে নতুন value তৈরি হয়
+immutable
+
+👉 Reference
+
+memory reference store হয়
+copy করলে same reference share হয়
+mutable
+
+
+Output Explanation
+let a = {x:1};
+let b = a;
+b.x = 10;
+
+console.log(a.x);

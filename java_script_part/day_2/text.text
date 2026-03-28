@@ -67,3 +67,17 @@ console.log(a.x);
 👉 Data exchange format (API, backend/frontend communication)
 
 Example:
+
+
+17. JSON.stringify() & JSON.parse()
+
+👉 JSON.stringify() → object → string
+👉 JSON.parse() → string → object
+
+let obj = {name: "Amit"};
+
+let str = JSON.stringify(obj);
+console.log(str);
+
+let back = JSON.parse(str);
+console.log(back);

@@ -1,0 +1,40 @@
+1. JavaScript-এ কয়টি data type আছে?
+
+👉 2 ধরনের:
+
+Primitive (7টি)
+Non-Primitive / Reference (Object, Array, Function)
+
+
+2. Primitive data types কী কী?
+
+👉
+
+Number
+String
+Boolean
+Undefined
+Null
+Symbol
+BigInt
+
+
+
+3. Non-primitive data types কী কী?
+
+👉
+
+Object
+Array
+Function
+
+4. typeof operator কী কাজে লাগে?
+
+👉 কোনো variable এর data type check করতে ব্যবহার হয়।
+
+typeof 10 // "number"
+
+6. typeof null কেন "object" return করে?
+
+👉 এটা JavaScript-এর historical bug (early design mistake)।
+JS শুরু থেকেই null কে object হিসেবে treat করেছিল, তাই এখনো typeof null → "object" দেখায়।

@@ -60,3 +60,10 @@ let b = a;
 b.x = 10;
 
 console.log(a.x);
+
+. JSON কী?
+
+👉 JSON = JavaScript Object Notation
+👉 Data exchange format (API, backend/frontend communication)
+
+Example:
